@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 1200px;
+  height: 550px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -275px 0 0 -600px;
+  background-color: gold;
+}
+#board {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background-color: #bbada0;
+  border-radius: 15px;
+}
+#board .cell_bg,
+#board .cell_0 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #ccc0b3;
+}
+#board .cell_2 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #eee4da;
+  font-size: 50px;
+}
+#board .cell_4 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #ede0c8;
+  font-size: 50px;
+}
+#board .cell_8 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #f2b179;
+  font-size: 50px;
+}
+#board .cell_16 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #f59563;
+  font-size: 50px;
+}
+#board .cell_32 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #f67c5f;
+  font-size: 50px;
+}
+#board .cell_64 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #f65e3b;
+  font-size: 50px;
+}
+#board .cell_128 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #edcf72;
+  font-size: 50px;
+}
+#board .cell_256 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #edcc61;
+  font-size: 50px;
+}
+#board .cell_512 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #99cc00;
+  font-size: 50px;
+}
+#board .cell_1024 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #33b5e5;
+  font-size: 40px;
+}
+#board .cell_2048 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #0099cc;
+  font-size: 40px;
+}
+#board .cell_4096 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #aa66cc;
+  font-size: 40px;
+}
+#board .cell_9192 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #9933cc;
+  font-size: 40px;
+}
+#canvas {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+}
