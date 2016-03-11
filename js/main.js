@@ -1,6 +1,9 @@
-
+var canvas, ctx;
 
 window.onload = function() {
+  startTime = new Date().getTime();
+  canvas = document.getElementById("canvas");
+  ctx = canvas.getContext("2d");
   initBoard();
 
   $(document).keydown(function(event) {event.stopPropagation();
@@ -24,6 +27,7 @@ window.onload = function() {
       default:
         break;     
     }
-    
   });
+
+  setInterval(updateTimer, 500);
 }
