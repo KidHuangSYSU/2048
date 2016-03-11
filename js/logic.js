@@ -178,7 +178,8 @@ function checkBall() {
       continue;
     if (balls[i].y > canvas.height - radius) {
       balls[i].y = canvas.height-radius;
-      balls[i].vy *= -Math.min(Math.random(),0.6);
+      balls[i].vy *= -balls[i].para;
+      balls[i].para -= 0.1;
     }
     temp.push(balls[i]);
   }

@@ -28,6 +28,7 @@ window.onload = function() {
       default:
         break;     
     }
+    return false;
   });
 
   setInterval(updateTimer, 1000/40);

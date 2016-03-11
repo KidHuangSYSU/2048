@@ -66,9 +66,10 @@ function drawDigit(index, sx, sy) {
 function ball(xx, yy) {
   this.x = xx;
   this.y = yy;
-  this.g = (Math.random()+1) * 2;
-  this.vy = -Math.random()*20;
-  this.vx = (Math.random()-0.75)*30;
+  this.g = 9.8;
+  this.para = 0.6;
+  this.vy = -Math.random()*30;
+  this.vx = Math.random() > 0.25 ? Math.random()*-20 : Math.random()*10;
   this.color = mycolor[parseInt(Math.random()*10)];
 }
 var balls = new Array();
