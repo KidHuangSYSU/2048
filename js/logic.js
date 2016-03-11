@@ -168,3 +168,31 @@ function moveDown() {
   generateNum();
   updateBoard();
 }
+
+function checkBall() {
+  var temp = [];
+  for (var i = 0; i < count; ++i) {
+    if (balls[i].x < radius)
+      continue;
+    if (balls[i].x > canvas.width-radius)
+      continue;
+    if (balls[i].y > canvas.height - radius) {
+      balls[i].y = canvas.height-radius;
+      balls[i].vy *= -Math.min(Math.random(),0.6);
+    }
+    temp.push(balls[i]);
+  }
+  count = temp.length;
+  balls = temp;
+  console.log(count)
+}
+
+
+function updateBall() {
+  for (var i = 0; i < count; ++i) {
+    balls[i].x += balls[i].vx;
+    balls[i].y += balls[i].vy;
+    balls[i].vy += balls[i].g;
+  }
+  checkBall();
+}

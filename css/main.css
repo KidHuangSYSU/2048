@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #ccc;
+}
 #container {
-  width: 1200px;
+  width: 1208px;
   height: 550px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin: -275px 0 0 -600px;
-  background-color: gold;
+  margin: -275px 0 0 -604px;
 }
 #board {
   width: 500px;
@@ -164,5 +166,5 @@
   position: absolute;
   right: 0;
   top: 0;
-  background-color: red;
+  background-color: gray;
 }

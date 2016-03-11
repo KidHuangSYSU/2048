@@ -4,6 +4,7 @@ window.onload = function() {
   startTime = new Date().getTime();
   canvas = document.getElementById("canvas");
   ctx = canvas.getContext("2d");
+
   initBoard();
 
   $(document).keydown(function(event) {event.stopPropagation();
@@ -29,5 +30,6 @@ window.onload = function() {
     }
   });
 
-  setInterval(updateTimer, 500);
+  setInterval(updateTimer, 1000/40);
+  setInterval(updateBall, 50);
 }
