@@ -1,3 +1,11 @@
+function getMax() {
+  var temp = [];
+  for (var i = 0; i < 4; ++i) {
+    temp.push(Math.max.apply(null, number[i]));
+  }
+  return Math.max.apply(null, temp);
+}
+
 function canMove() {
   return canMoveLeft() ||
          canMoveRight() ||
@@ -185,7 +193,7 @@ function checkBall() {
   }
   count = temp.length;
   balls = temp;
-  console.log(count)
+  //console.log(count)
 }
 
 

@@ -39,7 +39,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #eee4da;
+  background-color: #ece4d9;
   font-size: 50px;
 }
 #board .cell_4 {
@@ -49,7 +49,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #ede0c8;
+  background-color: #ede0c7;
   font-size: 50px;
 }
 #board .cell_8 {
@@ -59,7 +59,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #f2b179;
+  background-color: #f2b275;
   font-size: 50px;
 }
 #board .cell_16 {
@@ -69,7 +69,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #f59563;
+  background-color: #f6955c;
   font-size: 50px;
 }
 #board .cell_32 {
@@ -79,7 +79,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #f67c5f;
+  background-color: #f77d5a;
   font-size: 50px;
 }
 #board .cell_64 {
@@ -89,7 +89,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #f65e3b;
+  background-color: #f85d2e;
   font-size: 50px;
 }
 #board .cell_128 {
@@ -99,7 +99,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #edcf72;
+  background-color: #eecf6b;
   font-size: 50px;
 }
 #board .cell_256 {
@@ -109,7 +109,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #edcc61;
+  background-color: #edcd57;
   font-size: 50px;
 }
 #board .cell_512 {
@@ -119,7 +119,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #99cc00;
+  background-color: #eec943;
   font-size: 50px;
 }
 #board .cell_1024 {
@@ -129,7 +129,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #33b5e5;
+  background-color: #eec62d;
   font-size: 40px;
 }
 #board .cell_2048 {
@@ -139,7 +139,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #0099cc;
+  background-color: #eec419;
   font-size: 40px;
 }
 #board .cell_4096 {
@@ -149,7 +149,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #aa66cc;
+  background-color: #008000;
   font-size: 40px;
 }
 #board .cell_9192 {
@@ -159,7 +159,7 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 10px;
-  background-color: #9933cc;
+  background-color: #808080;
   font-size: 40px;
 }
 #canvas {
